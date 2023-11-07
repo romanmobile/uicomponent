@@ -1,7 +1,7 @@
 {
   "name": "testroman-ui-test01",
   "description": "A collection of UI components",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

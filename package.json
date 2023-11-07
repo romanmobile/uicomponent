@@ -1,25 +1,19 @@
 {
   "name": "testroman-ui-test01",
-  "description": "ui components",
-  "author": "testroman-ui-test01",
-  "keywords": [
-    "react",
-    "components",
-    "ui"
-  ],
+  "description": "A collection of UI components",
   "version": "1.0.6",
   "private": false,
-  "main": "dist",
+  "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "source": "src",
-  "files": [
-    "dist",
-    "README.md"
-  ],
+  "files": ["dist", "README.md"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/romanmobile/uicomponent.git"
+    "url": "https://github.com/romanmobile/testroman-ui-test01.git"
   },
+  "keywords": ["react", "components", "ui"],
+  "author": "Your Name",
+  "license": "MIT",
   "babel": {
     "presets": [
       "@babel/preset-react"

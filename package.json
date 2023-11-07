@@ -1,7 +1,7 @@
 {
-  "name": "@romanmobile/ui-component",
+  "name": "testroman-ui-test01",
   "description": "ui components",
-  "author": "romanmobile",
+  "author": "testroman-ui-test01",
   "keywords": [
     "react",
     "components",
@@ -9,7 +9,7 @@
   ],
   "version": "1.0.6",
   "private": false,
-  "main": "dist/index.js",
+  "main": "dist",
   "module": "dist/index.esm.js",
   "source": "src",
   "files": [

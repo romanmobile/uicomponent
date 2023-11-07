@@ -1,14 +1,17 @@
 {
   "name": "@romanmobile/ui-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "source": "src",
-  "files": [ "dist", "README.md" ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/romanmobile/uicomponent.git"
+    "type": "git",
+    "url": "git+https://github.com/romanmobile/uicomponent.git"
   },
   "babel": {
     "presets": [

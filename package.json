@@ -39,7 +39,8 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "rimraf dist && mkdir dist &&  babel ./src/lib/Components -d dist --copy-files"
+   
+    "build": "rimraf dist && set NODE_ENV=production && babel src/lib --out-dir dist --copy-files"
   },
   "eslintConfig": {
     "extends": [

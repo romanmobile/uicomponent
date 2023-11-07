@@ -1,9 +1,9 @@
 import React from 'react';
-import 'styles.css';
-const myComponent = (props) => {
+import './styles.css';
+const MyComponent = ({content}) => {
 return(
   <div className="styled-component">
-    {props.children}
+   {content}
   </div>);
 };
-export default myComponent;
+export default MyComponent;

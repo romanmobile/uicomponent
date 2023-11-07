@@ -1,3 +1,4 @@
-import Test from "./Test";
+import Test from "./Components/Test";
 
-export {  Test }; 
+
+export { Test }; 

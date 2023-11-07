@@ -9,5 +9,5 @@ Object.defineProperty(exports, "Test", {
     return _Test.default;
   }
 });
-var _Test = _interopRequireDefault(require("./Test"));
+var _Test = _interopRequireDefault(require("./Components/Test"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

@@ -38,7 +38,8 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "rimraf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
+    "build": "react-scripts build",
+    "publish:npm": "rimraf dist && mkdir dist &&  babel ./src/components -d dist --copy-files" 
   },
   "eslintConfig": {
     "extends": [
@@ -60,8 +61,9 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.23.0",
-    "@babel/preset-react": "^7.22.15",
     "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "cross-env": "^7.0.3",
     "rimraf": "^5.0.5"
   }
 }

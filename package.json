@@ -1,13 +1,13 @@
 {
   "name": "@romanmobile/ui-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
-  "source": "src", 
-  "babel": {  
-    "presets": [  
-      "@babel/preset-react"   
-    ] 
+  "source": "src",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -19,11 +19,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start", 
+    "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build": "rimraf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
-
   },
   "eslintConfig": {
     "extends": [

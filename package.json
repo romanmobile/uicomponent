@@ -1,5 +1,8 @@
 {
   "name": "@romanmobile/ui-component",
+  "description": "ui components",
+  "author": "romanmobile",
+  "keywords": ["react", "components", "ui"],
   "version": "1.0.2",
   "private": false,
   "main": "dist/index.js",
@@ -53,6 +56,8 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.23.0",
-    "@babel/preset-react": "^7.22.15"
+    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-env": "^7.23.2",
+    "rimraf": "^5.0.5"
   }
 }
